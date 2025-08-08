@@ -1,7 +1,7 @@
-import { Box, List, Typography } from '@mui/material'
 import React from 'react'
+
+
 import WalletIcon from '@mui/icons-material/Wallet';
-import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import LocalMallIcon from '@mui/icons-material/LocalMall';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import LocalAtmIcon from '@mui/icons-material/LocalAtm';
@@ -10,8 +10,11 @@ import InfoBoxType2 from '@/app/components/modules/default/box2';
 import ListItems from '@/app/components/modules/default/ListItems';
 import ArrowDropUpOutlinedIcon from '@mui/icons-material/ArrowDropUpOutlined';
 import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
-import GrowthBarChart from '@/app/components/modules/default/barchart';
+import GrowthBarChart from '@/app/components/modules/default/BarChart';
 import BasicArea from '@/app/components/modules/default/ListLineChart';
+
+import { Box, List, Typography } from '@mui/material'
+
 
 export default function page() {
   return (
