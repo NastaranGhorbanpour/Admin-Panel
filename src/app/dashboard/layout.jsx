@@ -1,40 +1,3 @@
-// import { Box } from "@mui/material";
-// import MenuSideBar from "../components/templates/sidebar";
-// import NavBar from "../components/templates/navBar";
-
-// export default function RootLayout({ children }) {
-//   const [sidebarOpen, setSidebarOpen] = useState(false);
-
-//   const toggleSidebar = () => {
-//     setSidebarOpen(!sidebarOpen);
-//   };
-
-
-//   return (
-//     <html lang="en">
-//       <body className="relative">
-//         <Box sx={{ display: "flex" }}>
-
-//           <MenuSideBar isOpen={sidebarOpen} toggle={toggleSidebar} />
-
-//           <Box component='section' sx={{ 
-//             display: 'flex',flexGrow : 1,
-//             border: '2px solid black',
-//             p:3,
-//             m:3,
-//             height:'100vh' 
-            
-//             }}>
-//             <NavBar toggleSidebar={toggleSidebar}/>
-//             <Box sx={{width:'100%',display: 'flex',flexGrow : 1,backgroundColor:'#EEF2F6',position: 'relative' , top: '100px'}}>{children}</Box>
-//           </Box>
-
-//         </Box>
-
-//       </body>
-//     </html>
-//   );
-// }
 'use client'
 
 import { useState } from 'react';
@@ -65,4 +28,5 @@ export default function Layout({ children }) {
       </ThemeProvider>
     </div>
   );
+
 }
