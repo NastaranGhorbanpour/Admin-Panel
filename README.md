@@ -6,7 +6,7 @@
 <img width="2830" height="1362" alt="Image" src="https://github.com/user-attachments/assets/0438f1ab-573f-4a51-a199-d37e7a072a50" />
 
 
-- [Demo Project](https://admin-panel-4fot.vercel.app/)  
+- [Demo Project](https://admin-panel-ochre-nine-69.vercel.app/)  
   
 - Developed by Nastaran Ghorbanpour
   
